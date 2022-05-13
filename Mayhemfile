@@ -1,0 +1,7 @@
+image: pedbap/shine-fuzz
+duration: 3000
+project: shine-fuzz
+target: shinefuzz
+cmds:
+  - cmd: /shineec @@ /dev/null
+    afl: true
